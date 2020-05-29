@@ -1,6 +1,6 @@
   node {
   stage('SCM Checkout') {
-    git 'https://github.com/andynwali/sonarqube.git'
+    git 'https://github.com/andynwali/CloudFormation.git'
   }
   stage('SonarQube analysis') {
     def scannerHome = tool name: 'SonarQube_Scanner';
